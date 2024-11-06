@@ -3,11 +3,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #383434;
 }
 
 header {
-    background-color: #333;
+    background-color: #474040;
     padding: 10px 0;
 }
 
@@ -22,7 +22,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: white;
+    color: rgb(51, 47, 47);
     text-decoration: none;
     font-size: 18px;
 }
@@ -53,7 +53,7 @@ section ul li {
 
 a {
     color: #0066cc;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 a:hover {
