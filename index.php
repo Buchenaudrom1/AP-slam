@@ -13,7 +13,7 @@
     <header>
         <nav>
             <ul>
-                <li><a href="index.php?page=accueil">Accueil</a></li>
+                <li><a href="index.php?page=accueil">index</a></li>
                 <li><a href="index.php?page=competence">Compétences</a></li>
                 <li><a href="index.php?page=realisation">Réalisations</a></li>
                 <li><a href="index.php?page=formation">Formation</a></li>
@@ -24,8 +24,8 @@
 
     <main>
         <?php
-            if ($page == 'accueil') {
-                include 'accueil.php';
+            if ($page == 'index') {
+                include 'index.php';
             } elseif ($page == 'competence') {
                 include 'competence.php';
             } elseif ($page == 'realisation') {
