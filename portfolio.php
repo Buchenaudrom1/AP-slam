@@ -8,6 +8,11 @@
     
 </head>
 <body>
+
+<?php
+require_once(" metre chemin ici ");
+$data = yaml_parse_file('portfolio.yaml');
+?>
     <header>
         <nav>
             <ul>
