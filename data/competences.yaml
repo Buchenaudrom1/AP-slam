@@ -1,0 +1,26 @@
+titre: Mes Compétences
+domaines:
+  - nom: bureautique
+    competences:
+      - nom: word
+        niveau: 80
+      - nom: excel
+        niveau: 65
+  - nom: réseau
+    competences:
+      - nom: IP
+        niveau: 30
+      - nom: switch
+        niveau: 10
+  - nom: Developement
+    competences:
+      - nom: HTML
+        niveau: 80
+      - nom: CSS
+        niveau: 65
+      - nom: JAVASRIPT
+        niveau: 30
+      - nom: PHP 
+        niveau: 50
+      - nom: YAML
+        niveau: 

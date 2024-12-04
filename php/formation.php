@@ -1,8 +1,19 @@
+<?php
+$dta =yaml_parse_file(phile: 'data\formation.yaml')
+?>
+
 <section id="formation">
-            <h2>Ma Formation</h2>
-            <ul>
-                <li><strong>BAC STMG </strong> Lycée Alexis de Tocqueville à Cherbourg  </li>
-                <li><strong>BTS SIO ( en cours )</strong> CaenSup Sainte Ursule </li>
-            </ul>
-            <a href="assets/cv.pdf" target="_blank">Télécharger mon CV</a>
-        </section>
+    <a href="assets/cv.pdf" target="_blank">Télécharger mon CV</a>
+
+
+    <h2><?php echo $data['titre']; ?> </h2>
+    
+<?php 
+foreach($data['domaines'] AS $domaine){
+    echo $domaine['nom']."<br>";
+    foreach($domaine['competences'] AS $competence){
+        echo $competence['nom']." : "."<br>";
+    }
+}
+?>
+</section>

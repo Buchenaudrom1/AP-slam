@@ -1,15 +1,18 @@
+<?php
+$data =yaml_parse_file('data/competences.yaml');
+?>
+
+<section id='competences'>
 
 
-<section id="competences">
-            <h2>Mes Compétences</h2>
-            <ul>
-                <li><strong> Je suis en train d'apprendre l'informatique en générale </strong> </li>
-                <li><strong> je fait actuelement des études en informatique j'apprend:</strong> 
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>PHP</li>
-                    <li>JavaScript</li>
-                </ul>
-            </ul>
-        </section>
+<h2><?php echo $data['titre']; ?> </h2>
+<?php 
+foreach($data['domaines'] AS $domaine){
+    echo $domaine['nom']."<br>";
+    foreach($domaine['competences'] AS $competence){
+        echo $competence['nom']." : ". $competence['niveau']."<br>";
+    }
+}
+
+?>
+</section>
