@@ -3,24 +3,31 @@ domaines:
   - nom: bureautique
     competences:
       - nom: word
-        niveau: 80
+        niveau: ★★★★☆
       - nom: excel
-        niveau: 65
+        niveau: ★★★★☆
   - nom: réseau
     competences:
       - nom: IP
-        niveau: 30
+        niveau: ★★☆☆☆
       - nom: switch
-        niveau: 10
+        niveau: ☆☆☆☆☆
   - nom: Developement
     competences:
       - nom: HTML
-        niveau: 80
+        niveau: ★★★★☆
       - nom: CSS
-        niveau: 65
+        niveau: ★★☆☆☆
       - nom: JAVASRIPT
-        niveau: 30
+        niveau: ★☆☆☆☆
       - nom: PHP 
-        niveau: 50
+        niveau: ★★☆☆☆
       - nom: YAML
-        niveau: 
+        niveau: ★★☆☆☆
+  - nom: Autres
+    competences:
+      - nom: Anglais
+        niveau: ★★★★☆
+      - nom: Redaction de procedur  
+        niveau: ★★★☆☆
+

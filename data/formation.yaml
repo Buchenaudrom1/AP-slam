@@ -1,8 +1,8 @@
-titre: Ma Formation
+titre: "Mon Parcours"
 domaines:
- - nom: Scolarites
-  competences: 
-    - nom: BAC STMG lycée Alexis de Tocqueville à Cherbourg
-    - nom: BTS SIO ( en cours ) CaenSup Sainte Ursule 
-
-             
+  - nom: "actuelement"
+    details:
+      - nom: "Actuellement en cours d'un BTS SIO CaenSup Sainte Ursule"
+  - nom: "Baccalauréat"
+    details:
+      - nom: "BAC STMG Alexis de Tocqueville à Cherbourg"

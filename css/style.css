@@ -1,55 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #40394A;
+}
 
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            background-color: #333;
-            color: white;
-            z-index: 1000;
-        }
-        nav ul {
-            list-style: none;
-            margin: 0;
-            padding: 10px;
-            display: flex;
-            justify-content: center;
-        }
-        nav ul li {
-            margin: 0 15px;
-        }
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        section {
-            padding: 100px 20px;
-            margin-top: 60px; 
-        }
-        #accueil {
-            background-color: #f4f4f4;
-        }
-        #competences {
-            background-color: #e8f5e9;
-        }
-        #realisations {
-            background-color: #e3f2fd;
-        }
-        #formation {
-            background-color: #fff3e0;
-        }
-        #contact {
-            background-color: #ede7f6;
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #333;
-            color: white;
-        }
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #CCFFBD;
+    color: #FFDEDE;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 100px 20px;
+    margin-top: 60px;
+    max-width: 1200px;  
+    margin: 60px auto;  
+}
+
+#accueil,
+#competences,
+#realisations,
+#formation,
+#contact {
+    background-color: #87d1a5;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #7ECA9C;
+    color: #000000;
+}

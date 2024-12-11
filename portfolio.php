@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio de Buchenaud Romain</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css\style.css">
     
 </head>
 <body>
@@ -27,7 +27,7 @@ require_once("yaml/yaml.php");
     </header>
     <?php include 'php/accueil.php'; ?>
     <?php include 'php/competences.php'; ?> 
-    <?php //include 'php/formation.php'; ?>
+    <?php include 'php/formation.php'; ?>
     <?php //include 'php/realisations.php'; ?>
     <?php //include 'php/contact.php'; ?>
 </body>
