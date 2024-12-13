@@ -28,7 +28,7 @@ require_once("yaml/yaml.php");
     <?php include 'php/accueil.php'; ?>
     <?php include 'php/competences.php'; ?> 
     <?php include 'php/formation.php'; ?>
-    <?php //include 'php/realisations.php'; ?>
-    <?php //include 'php/contact.php'; ?>
+    <?php include 'php/realisations.php'; ?>
+    <?php include 'php/contact.php'; ?>
 </body>
 </html>

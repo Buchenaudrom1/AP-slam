@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #40394A;
+    background-color: #000000;
 }
 
 header {
@@ -10,8 +10,8 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #CCFFBD;
-    color: #FFDEDE;
+    background-color: #ffffff;
+    color: #ffffff;
     z-index: 1000;
 }
 
@@ -28,7 +28,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #000000;
+    color: #1d1d1d;
     text-decoration: none;
     font-weight: bold;
 }
@@ -38,6 +38,7 @@ section {
     margin-top: 60px;
     max-width: 1200px;  
     margin: 60px auto;  
+    border: #ffffff;
 }
 
 #accueil,
@@ -45,12 +46,14 @@ section {
 #realisations,
 #formation,
 #contact {
-    background-color: #87d1a5;
+    color: #ffffff;
+    background-color: #292828;
+    border: #ffffff;
 }
 
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #7ECA9C;
-    color: #000000;
+    background-color: #ffffff;
+    color: #ffffff;
 }

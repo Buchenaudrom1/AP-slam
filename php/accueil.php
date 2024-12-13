@@ -1,6 +1,16 @@
-<section id="accueil">
-            <h1>Bienvenue sur mon Portfolio</h1>
-            <p>Je suis Buchenaud Romain, J'apprend l'Informatique. Explorez mes compétences, réalisations et formation pour en apprendre plus sur moi.</p>
-            <img src="..\images\image de moi.jpg" alt="Votre photo" style="width: 200px; border-radius: 20px;" >
-            <p> Je m'appelle Buchenaud Romain, j'ai 19ans et je suis actuellement en BTS SIO </p>
-        </section>
+<?php
+$data = yaml_parse_file('data/acceuil.yaml');
+?>
+<section id="formation">
+    <h2><?php echo $data['titre']; ?></h2>
+    <img src="..\images\imagedemoi.jpg" alt="Votre photo" style="width: 200px; border-radius: 20px;">
+    <?php
+    foreach ($data['domaines'] as $domaine) {
+        echo $domaine['nom'] . "<br>";
+
+        foreach ($domaine['details'] as $detail) {
+            echo $detail['nom'] . " : <br>";
+        }
+    }
+    ?>
+</section>

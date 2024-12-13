@@ -1,14 +1,19 @@
-
+<?php
+$data = yaml_parse_file('data/realisations.yaml');
+?>
 
 <section id="realisations">
-            <h2>Mes Réalisations</h2>
-            <article>
-                <h3>Projet 1 : Ce Portfolio</h3>
-                <p>Création d'un Portfolio en ligne.</p>
-                <img src="..\images\image de Portfolio.png" alt="Votre photo" style="width: 200px; border-radius: 20px;" >
-            </article>
-            <article>
-                <h3>Projet 2 : </h3>
-                <p> </p>
-            </article>
-        </section> 
+    <a href="https://github.com/Buchenaudrom1" target="_blank">Mon GitHubg</a>
+
+    <h2><?php echo $data['titre']; ?> </h2>
+
+<?php
+foreach ($data['domaines'] AS $domaine) {
+    echo $domaine['nom'] . "<br>";
+
+    foreach ($domaine['details'] AS $detail) {
+        echo $detail['nom'] . " : <br>";
+    }
+}
+?>
+</section>
