@@ -3,7 +3,7 @@ $data = yaml_parse_file('data/realisations.yaml');
 ?>
 
 <section id="realisations">
-    <a href="https://github.com/Buchenaudrom1" target="_blank">Mon GitHubg</a>
+    <a href="https://github.com/Buchenaudrom1" target="_blank">Mon GitHub</a>
 
     <h2><?php echo $data['titre']; ?> </h2>
 

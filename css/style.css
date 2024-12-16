@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #000000;
+    background-color: #681d27;
 }
 
 header {
@@ -10,8 +10,8 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #ffffff;
-    color: #ffffff;
+    background-color: #77572d;
+    color: #000000;
     z-index: 1000;
 }
 
@@ -25,10 +25,11 @@ nav ul {
 
 nav ul li {
     margin: 0 15px;
+    margin: 0 15px;
 }
 
 nav ul li a {
-    color: #1d1d1d;
+    color: #ffffff;
     text-decoration: none;
     font-weight: bold;
 }
@@ -46,14 +47,14 @@ section {
 #realisations,
 #formation,
 #contact {
-    color: #ffffff;
-    background-color: #292828;
-    border: #ffffff;
+    color: #000000;
+    background-color: #77572d;
+    border: #000000;
 }
 
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #ffffff;
+    background-color: #000000;
     color: #ffffff;
 }
