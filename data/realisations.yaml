@@ -1,9 +1,9 @@
 titre: "Mes Realisation"
-domaines:
-  - nom: "Projet de cours"
-    details:
-      - nom: "plusieur TD de devellopement disponible sur ma page GitHub"
+domaines: "Projet de cours"
+  - nom: "plusieur TD de dèvellopement disponible sur ma page GitHub"
+    details: "description"
+    - nom: "page web realiser en HTML, PHP, CSS"
   - nom: "Redaction de procédure"
-    details:
-      - nom: ""
-# 
+    details: "description"
+    - nom: "procédure realiser pour l'installation et la configuration d'un service WEB apache2"
+    - nom: "procédure realiser pour l'installation et la configuration d'un service DNS Primaire"
