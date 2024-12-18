@@ -3,7 +3,7 @@ $data = yaml_parse_file('data/formation.yaml');
 ?>
 
 <section id="formation">
-    <a href="assets/cv.pdf" target="_blank">Télécharger mon CV</a>
+   
 
     <h2><?php echo $data['titre']; ?> </h2>
 
@@ -15,5 +15,7 @@ foreach ($data['domaines'] AS $domaine) {
         echo $detail['nom'] . " : <br>";
     }
 }
-?>
+?> 
+<br>
+<a href="images\Cv Buchenaud Romainc.pdf" target="_blank">Télécharger mon CV</a>
 </section>

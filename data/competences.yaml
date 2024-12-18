@@ -12,13 +12,13 @@ domaines:
         niveau: ★★☆☆☆
       - nom: switch
         niveau: ☆☆☆☆☆
-  - nom: Developement
+  - nom: Developpement
     competences:
       - nom: HTML
         niveau: ★★★★☆
       - nom: CSS
         niveau: ★★☆☆☆
-      - nom: JAVASRIPT
+      - nom: JAVASCRIPT
         niveau: ★☆☆☆☆
       - nom: PHP 
         niveau: ★★☆☆☆
@@ -28,6 +28,8 @@ domaines:
     competences:
       - nom: Anglais
         niveau: ★★★★☆
-      - nom: Redaction de procedur  
+      - nom: Redaction de procedure  
+        niveau: ★★★☆☆
+      - nom: Savoir vivre
         niveau: ★★★☆☆
 
